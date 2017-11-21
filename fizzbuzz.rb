@@ -5,5 +5,7 @@ for i in 1..100 then
 		print("Fizz\n")
 	elsif i%5 == 0 then
 		print("Buzz\n")
+	else then
+		printf("%d\n",i)
 	end
 end
